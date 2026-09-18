@@ -43,13 +43,13 @@ A four-router OSPF network built in Cisco Packet Tracer. Demonstrates multi-area
 - End-to-end ping: 100% success across all VLANs and routers
 
 ## What Broke and How I Fixed It
-- Serial interface names were wrong — the 1941 uses Serial0/1/0 and Serial0/1/1, not Serial0/0/0. Checked with show ip interface brief.
-- R1's ARP table was empty — R4 wasn't advertising correctly. Fixed with clear ip ospf process.
-- Router-to-switch link didn't come up — router interfaces default to administratively down. Fixed with no shutdown.
-- PC could not reach gateway — VLAN/native VLAN mismatch. Fixed by setting switchport trunk native vlan 10 (and 20 on the other side).
+- Serial interface names were wrong — the 1941 uses Serial0/1/0 and Serial0/1/1, not Serial0/0/0.
+- R1's ARP table was empty — fixed with clear ip ospf process.
+- Router-to-switch link didn't come up — interfaces default to shutdown. Fixed with no shutdown.
+- PC could not reach gateway — native VLAN mismatch. Fixed with switchport trunk native vlan.
 
 ## Lessons Learned
 - OSPF load balancing uses equal-cost paths automatically
 - show ip ospf neighbor only shows directly connected routers
-- DHCP binding tables in Packet Tracer sometimes display empty — verify on the client with ipconfig /all
-- Native VLAN must match between the trunk port and the router's physical interface when using plain routed interfaces
+- DHCP binding tables in Packet Tracer sometimes display empty — verify on the client
+- Native VLAN must match between trunk and router interface
