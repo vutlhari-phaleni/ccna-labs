@@ -16,6 +16,7 @@ A collection of Cisco Packet Tracer labs documenting my CCNA learning journey. E
 | 02 | [VLAN, EtherChannel, Port Security](./02-vlan-etherchannel-portsecurity) | VTP, LACP EtherChannel, STP, Port Security, Layer 3 switching |
 | 03 | [NAT and ACL](./03-nat-acl) | NAT Overload (PAT), standard ACLs, extended ACLs |
 | 04 | [VLAN and Inter-VLAN Routing](./04-vlan-inter-vlan-routing) | VLANs, 802.1Q trunking, inter-VLAN routing |
+| 05 | [Two-LAN Routing](./05-two-lan-routing) | Basic routing, directly connected networks, IP addressing |
 
 ---
 
