@@ -17,6 +17,7 @@ A collection of Cisco Packet Tracer labs documenting my CCNA learning journey. E
 | 03 | [NAT and ACL](./03-nat-acl) | NAT Overload (PAT), standard ACLs, extended ACLs |
 | 04 | [VLAN and Inter-VLAN Routing](./04-vlan-inter-vlan-routing) | VLANs, 802.1Q trunking, inter-VLAN routing |
 | 05 | [Two-LAN Routing](./05-two-lan-routing) | Basic routing, directly connected networks, IP addressing |
+| 06 | [IPv6 Dual-Stack Routing](./06-ipv6-dual-stack) | IPv6 addressing, dual-stack, IPv6 static routing |
 
 ---
 
@@ -26,6 +27,8 @@ A collection of Cisco Packet Tracer labs documenting my CCNA learning journey. E
 - OSPF (multi-router, multi-area, load balancing)
 - Static routing
 - Inter-VLAN routing (traditional + Layer 3 switching)
+- IPv6 addressing and static routing
+- Dual-stack (IPv4 + IPv6)
 
 ### Switching
 - VLANs and access ports
