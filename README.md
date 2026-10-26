@@ -19,6 +19,7 @@ A collection of Cisco Packet Tracer labs documenting my CCNA learning journey. E
 | 05 | [Two-LAN Routing](./05-two-lan-routing) | Basic routing, directly connected networks, IP addressing |
 | 06 | [IPv6 Dual-Stack Routing](./06-ipv6-dual-stack) | IPv6 addressing, dual-stack, IPv6 static routing |
 | 07 | [EIGRP Dynamic Routing](./07-eigrp-routing) | EIGRP, AS configuration, neighbor adjacency, topology table |
+| 08 | [Small Office Helpdesk Network](./08-helpdesk-office-network) | DHCP, Wireless Router, Inter-network routing, Helpdesk troubleshooting |
 
 ---
 
@@ -31,6 +32,8 @@ A collection of Cisco Packet Tracer labs documenting my CCNA learning journey. E
 - IPv6 addressing and static routing
 - Dual-stack (IPv4 + IPv6)
 - EIGRP dynamic routing
+- Wireless router configuration (WRT300N)
+- DHCP Server configuration
 
 ### Switching
 - VLANs and access ports
