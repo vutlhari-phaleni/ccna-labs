@@ -20,7 +20,7 @@ A collection of Cisco Packet Tracer labs documenting my CCNA learning journey. E
 | 06 | [IPv6 Dual-Stack Routing](./06-ipv6-dual-stack) | IPv6 addressing, dual-stack, IPv6 static routing |
 | 07 | [EIGRP Dynamic Routing](./07-eigrp-routing) | EIGRP, AS configuration, neighbor adjacency, topology table |
 | 08 | [Small Office Helpdesk Network](./08-helpdesk-office-network) | DHCP, Wireless Router, Inter-network routing, Helpdesk troubleshooting |
-
+| 09 | [IT Service Management (Jira)](./09-jira-service-management) | Ticketing, ITIL workflows, root cause analysis, helpdesk documentation |
 ---
 
 ## Skill Coverage
@@ -54,7 +54,7 @@ A collection of Cisco Packet Tracer labs documenting my CCNA learning journey. E
 - Extended ACLs
 - Port Security
 - SSH hardening
-
+- Jira Service Management (Ticketing & Incident Workflows)
 ---
 
 ## Repository Structure
